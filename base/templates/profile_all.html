@@ -1,0 +1,23 @@
+{% extends 'layout/main.html'%}
+{% block content %} 
+{% load static %}
+<style>
+   .home-container{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+   }
+</style>
+  <div class="home-container">
+    <div>
+    <div>
+        {% include 'includes/home-topic.html'%}
+    </div>
+    <div>
+      <center><img src="{% static 'images/telegramprofile.jpg'%}" alt="" width="100px" height="100px"></center>
+      {% include 'includes/home-feed.html'%}
+    </div>
+    <div>
+      {% include 'includes/activity-component.html'%}
+    </div>
+   </div>
+{% endblock content %}
