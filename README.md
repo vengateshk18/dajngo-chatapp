@@ -12,8 +12,8 @@ This project includes integration with a chat app to facilitate communication an
 To integrate the chat app with your project, follow these steps:
 
 1. Navigate to the chat app directory.
-2. Install chat app dependencies by running `npm install`.
-3. Start the chat app by running `npm start`.
+2. Install chat app dependencies by running `pip install django`.
+3. Start the chat app by running `django-admin startapp message`.
 
 Feel free to customize and extend the chat app to meet your specific communication needs. Enhance your team's collaboration and streamline communication using the integrated chat features.
 
